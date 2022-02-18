@@ -1,0 +1,197 @@
+
+/* @font-face {
+  font-family: 'AUTHENTIC';
+  src: url('fonts/AUTHENTICSans-150.woff') format ('woff');
+  src: url('fonts/AUTHENTICSans-150.woff2') format ('woff2');
+} */
+
+/* not working^ figure out how to connect */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p, ol li {
+  font-family: 'Literata', serif;
+  font-size: 14px;
+}
+
+li a {
+  text-decoration: underline;
+}
+
+ol {
+  margin-top: 10px;
+}
+
+body {
+    color: black;
+    background-color: #ffffff;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: 'Literata', serif;
+}
+
+h1 {
+  font-family: 'DM Sans', sans-serif;  }
+
+h2 {
+  font-size:18px;
+  font-family: 'DM Sans', sans-serif;  }
+}
+
+
+::selection {
+    background: #EEF8F2; WebKit/Blink Browsers
+  }
+
+  header {
+      display: flex;
+      justify-content: space-between;
+      vertical-align: center;
+  }
+  
+
+  header h1 a{
+    color: #256C62;
+    /* margin: auto;
+    width: 100%; */
+  }
+
+
+
+.hero {
+  margin-bottom: 1rem;
+  position: relative;
+  text-align: left;
+  color: black;
+}
+
+.hero #description {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  margin-right: 50%;
+}
+
+.hero img {
+  width: 100%;
+}
+
+/* (A) TABS CONTAINER */
+.tab {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* (B) HIDE CHECKBOX */
+  .tab input { display: none; }
+  
+  /* (C) TAB LABEL */
+  .tab label {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px black solid;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    color: black;
+    cursor: pointer;
+    font-size:30px;
+    font-family: 'DM Sans', sans-serif;  }
+
+  .tab label:hover {
+      color:#256C62;
+  }
+  
+  /* (D) TAB CONTENT */
+  .tab .tab-content {
+    /* CSS ANIMATION WILL NOT WORK WITH AUTO HEIGHT */
+    /* THIS IS WHY WE USE MAX-HEIGHT INSTEAD */
+    overflow: hidden;
+    transition: max-height 0.3s;
+    max-height: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+
+  }
+
+  .tab .tab-content img {
+    width:100%;
+    margin-top: 1em;
+  }
+  /* .tab .tab-content p { margin-left: 20rem; } */
+  
+  /* (E) OPEN TAB ON CHECKED */
+  .tab input:checked ~ .tab-content { max-height: 100vh; }
+  
+  /* (F) EXTRA - ADD ARROW INDICATOR */
+  .tab label::after {
+    content: "\005E";
+    /* content: "\2192"; */
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: all 0.4s;
+    margin-right:1rem;
+  }
+  .tab input:checked ~ label::after { transform: scaleY(-1); }
+
+
+
+  .funding {
+    position: relative;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size:30px;
+    border: solid 2px #2d3a0d;
+    font-family: 'DM Sans', sans-serif;  }
+  
+  .funding .title {
+    background-color: #0EA57A;
+    color: #FFFAF4;
+    padding: 15px;
+  }
+
+  .funding .content {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    overflow: hidden;
+ 
+  }
+
+  .funding .content img {
+    width: 100%;
+  }
+  .funding .content .text p {
+    width:100%;
+  }
+
+  .funding .content .text .action {
+    background-color: #EEF8F2;
+    width: 100%;
+    color: #2d3a0d;
+    padding: 10px;
+    font-size:18px;
+    margin-top: 5px;
+
+  }
+
+
+
+  
+  footer {
+
+    }
+
+ 
+
+
+ @media only screen and (max-width: 800px) {
+ 
+    }
