@@ -54,7 +54,7 @@ h2 {
   
 
   header h1 a{
-    color: #256C62;
+    color: #09a370ff;
     /* margin: auto;
     width: 100%; */
   }
@@ -102,7 +102,7 @@ h2 {
     font-family: 'DM Sans', sans-serif;  }
 
   .tab label:hover {
-      color:#256C62;
+      color:#09a370ff;
   }
   
   /* (D) TAB CONTENT */
@@ -151,7 +151,7 @@ h2 {
     font-family: 'DM Sans', sans-serif;  }
   
   .funding .title {
-    background-color: #0EA57A;
+    background-color: #09a370ff;
     color: #FFFAF4;
     padding: 15px;
   }
@@ -173,7 +173,7 @@ h2 {
   }
 
   .funding .content .text .action {
-    background-color: #EEF8F2;
+    background-color: #ddffeeff;
     width: 100%;
     color: #2d3a0d;
     padding: 10px;
