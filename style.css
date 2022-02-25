@@ -76,6 +76,9 @@ h2 {
   color: black;
   background-color: lightblue;
   height:280px;
+  /* background-image: url("assets/fund-abortion-now!_banner.jpg");
+  background-size: 100vh; */
+
 }
 
 .hero .whatis {
@@ -85,7 +88,7 @@ h2 {
   margin-right: 50%;
   vertical-align: middle;
   top: 50%;                        
-  transform: translate(0, -50%) }
+  transform: translate(0, -50%);
 }
 
 .hero a {
