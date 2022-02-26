@@ -19,21 +19,18 @@ p, ol li {
 li a {
   text-decoration: underline;
 }
-
 ol {
   margin-top: 10px;
 }
 
-
 body {
     color: black;
     background-color: #fffef9ff;
-    margin-top: 3rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
     font-family: 'DM Sans', sans-serif; 
 }
-
 h1 {
   font-family: 'DM Sans', sans-serif;  }
 
@@ -41,6 +38,7 @@ h2 {
   font-size:18px;
   font-family: 'DM Sans', sans-serif;  }
 
+  /* ARROW + LOGO +PDF */
 
   header h1 a{
     color: #09a370ff;
@@ -49,12 +47,16 @@ h2 {
   }
 
   header h2 a {
-    padding:10px;
+    padding:10px 15px;
     border: 2px solid #31a9edff;
-    border-radius: 5px;
+    border-radius: 30px;
     width: 30px;
     height: 30px;   
     color: #31a9edff;
+  }
+
+  header h2 a:hover {  
+    background-color: rgba(49, 168, 237, 0.164);
   }
 
   .mobile{
@@ -65,28 +67,18 @@ h2 {
     text-align: center;
   }
   
+/* ABOUT TEXT */
 
 .hero {
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
+  margin-left:auto;
+  margin-right:auto;
   position: relative;
-  text-align: left;
-  color: black;
-  background-color: lightblue;
-  height:280px;
-  /* background-image: url("assets/fund-abortion-now!_banner.jpg");
-  background-size: 100vh; */
-
+  text-align: center;
+  color: #31a9edff;
+  font-size:38px;
 }
 
-.hero .whatis {
-  position: absolute;
-  /* top: 50%; */
-  left: 17px;
-  margin-right: 50%;
-  vertical-align: middle;
-  top: 50%;                        
-  transform: translate(0, -50%);
-}
 
 .hero a {
   text-decoration: underline;
@@ -95,6 +87,50 @@ h2 {
 .hero img {
   width: 100%;
 }
+
+.hero .whatis {
+  font-size: 24px;
+  padding-left:4em;
+  padding-right:4em;
+  padding-top:1em;
+}
+
+/* INDEX */
+
+.index {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom:4rem;
+}
+
+.jump {
+  color: #09a370ff;
+  outline: solid 2px #09a370ff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 9px;
+  font-size: 24px;
+}
+
+.jump:hover {
+  background-color: rgba(9, 163, 112, 0.158);
+}
+
+
+.title {
+border-bottom: 2px solid #09a370ff;
+font-size: 24px;
+color: #09a370ff;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+
 
 /* (A) TABS CONTAINER */
 .tab {
@@ -304,14 +340,7 @@ h2 {
   }
 
 
-.hero {
-  margin-bottom: 1rem;
-  position: relative;
-  text-align: center;
-  color: black;
-  background-color: lightblue;
-  height:280px;
-}
+
 
 .hero .whatis {
   font-size: 12px;
