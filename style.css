@@ -31,7 +31,7 @@ ol {
 }
 
 li{
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 body {
@@ -214,7 +214,7 @@ color: #09a370ff;
     transition: max-height 0.3s;
     max-height: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     column-gap: 30px;
     background-color: rgba(9, 163, 112, 0.158);
     margin-top: 10px;
@@ -223,8 +223,16 @@ color: #09a370ff;
 
   .orgs {
     margin: 21px 21px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
+  }
+
+  .resourcelist a {
+    color:#09a370ff;
+  }
+
+  ul {
+    list-style: none;
   }
 
   .timeline {
