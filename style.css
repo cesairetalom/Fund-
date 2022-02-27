@@ -66,6 +66,10 @@ h2 {
     color: #31a9edff;
   }
 
+  svg {
+    width: 4.5%;
+  }
+
   header h2 a:hover {  
     background-color: rgba(49, 168, 237, 0.164);
   }
