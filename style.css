@@ -319,10 +319,12 @@ color: #09a370ff;
   grid-template-columns: 1fr 1fr;  
   margin-bottom: 3em;
   margin-top: 3em;
-  vertical-align: baseline;
-
-
+  align-items: end;
     }
+
+  .logos {
+    vertical-align: center;
+  }
 
     .socials {
       text-align: right;
