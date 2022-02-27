@@ -178,16 +178,13 @@ color: #09a370ff;
   .tab label {
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px #09a370ff solid;
-    padding-bottom: 5px;
+    padding: 10px 15px;
     margin-top: 10px;
-    color: #09a370ff;
+    color: rgb(255, 255, 255);
+    background-color: #09a370ff;
     cursor: pointer;
     font-size:30px;
-    font-family: 'DM Sans', sans-serif;  }
-
-  .tab label:hover {
-      color:#09a370ff;
+    border-radius: 9px;
   }
   
   /* (D) TAB CONTENT */
@@ -200,7 +197,15 @@ color: #09a370ff;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
+    background-color: rgba(9, 163, 112, 0.158);
+    margin-top: 10px;
+    border-radius: 9px;
+  }
 
+  .orgs {
+    margin: 21px 21px;
+    font-size: 18px;
+    font-weight: bold;
   }
 
   .timeline {
@@ -218,7 +223,7 @@ color: #09a370ff;
   
   /* (F) EXTRA - ADD ARROW INDICATOR */
   .tab label::after {
-    content: "\005E";
+    content: "\002B";
     /* content: "\2192"; */
     right: 10px;
     top: 10px;
@@ -226,7 +231,9 @@ color: #09a370ff;
     transition: all 0.4s;
     margin-right:1rem;
   }
-  .tab input:checked ~ label::after { transform: scaleY(-1); }
+  .tab input:checked ~ label::after { 
+    content: "\2013"; 
+  }
 
   section {
   margin-bottom: 3em;
@@ -272,11 +279,19 @@ color: #09a370ff;
 
   
   footer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
   margin-bottom: 3em;
   margin-top: 3em;
+  vertical-align: baseline;
 
+
+    }
+
+    .socials {
+      text-align: right;
+      font-weight: bold;
+      align-items: flex-end;
     }
 
 
@@ -349,8 +364,8 @@ color: #09a370ff;
       visibility: hidden;
       opacity: 0;
     }
-    
-
+  
+ 
 
 
  @media screen and (max-width: 767px) {
