@@ -110,6 +110,10 @@ h2 {
   padding-top:1em;
 }
 
+.hero .whatis a {
+  color: #31a9edff;
+}
+
 /* INDEX */
 
 .index {
@@ -117,6 +121,10 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
   margin-bottom:4rem;
+}
+
+.index a {
+  text-decoration: none;
 }
 
 .jump {
@@ -152,7 +160,8 @@ color: #09a370ff;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  color:#31a9edff;
+  color:rgb(255, 255, 255);
+  background-color: #31a9edff;
   border-radius: 9px;
 }
 
@@ -278,7 +287,16 @@ color: #09a370ff;
     margin-left: 3px;
     border-radius: 9px;
   }
+  .funding .content .text a {
+    text-decoration: none;
+  }
 
+  .giving a {
+    color: #31a9edff;
+    text-decoration: underline;
+  }
+
+ 
   .funding .content .text .action:hover {
     background-color: rgba(49, 168, 237, 0.164);
   }
@@ -318,6 +336,16 @@ color: #09a370ff;
     article {
       counter-reset: footnotes;
     }
+
+    article ol li {
+      font-size: 10px;
+      color: #f95421ff;
+    }
+
+    article ol li a {
+      color: #f95421ff;
+    }
+
     
     /**
      * Inline footnotes references
