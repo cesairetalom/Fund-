@@ -418,6 +418,20 @@ color: #09a370ff;
   
  
 
+    /* SAMPLE SCROLL */
+
+    .timeline {
+      overflow: scroll;
+      outline: solid 2px #09a370ff;
+      margin-bottom: 4em;
+    }
+
+    .timeline img {
+      height:550px;
+      padding-left: 1em;
+    }
+
+    
 
  @media screen and (max-width: 767px) {
 
