@@ -24,10 +24,15 @@ li a {
 
 ol {
   margin-top: 10px;
+  padding: 0px;
 }
 
 li{
   margin: 10px 0;
+}
+
+ol li {
+  padding-left: 1em;
 }
 
 body {
@@ -72,9 +77,19 @@ h2 {
   }
 
 
-
   header h2 a:hover {  
     background-color: rgba(49, 168, 237, 0.164);
+  }
+
+  .fundheadline {
+    background-color: #09a370ff;
+    color: white;
+    padding:10px 15px;
+    font-size: 24px;;
+  }
+  .fundaction {
+    border: solid #09a370ff 2px;
+    margin-bottom:2em;
   }
 
   .mobile{
@@ -167,16 +182,14 @@ color: #09a370ff;
 .bestpractices {
   border: solid 2px #31a9edff;
   display: block;
-  color:rgb(255, 255, 255);
-  background-color: #31a9edff;
+  color:#31a9edff;
+  background-color: none;
   border-radius: 9px;
-  padding: 1em;
+  padding: 1.5em;
 }
 
 .bestpractices .headline {
-  text-align: center;
-  margin:auto;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .bestpractices .list {
@@ -202,7 +215,7 @@ color: #09a370ff;
     padding: 10px 15px;
     margin-top: 10px;
     color: rgb(255, 255, 255);
-    background-color: #09a370ff;
+    background-color: #31a9edff;
     cursor: pointer;
     font-size:30px;
     border-radius: 9px;
@@ -284,7 +297,7 @@ color: #09a370ff;
   }
 
   .funding .content .text .action {
-    font-size:18px;
+    font-size:20px;
     outline: solid 2px #31a9edff;
     color:#31a9edff;
     padding:10px 15px;
@@ -448,6 +461,14 @@ color: #09a370ff;
   section {
     margin-left: 5%;
     margin-right:5%;
+  }
+
+  .bestpractices .headline {
+    font-size: 17px;
+  }
+
+  ol li {
+    font-size: 17px;
   }
 
 
