@@ -89,6 +89,7 @@ h2 {
   }
   .fundaction {
     border: solid #09a370ff 2px;
+    margin-bottom: 15px;
   }
 
   .mobile{
@@ -166,6 +167,7 @@ border-bottom: 2px solid #09a370ff;
 padding-bottom:10px;
 font-size: 36px;
 color: #09a370ff;
+margin-bottom: 45px;
 }
 
 .content {
@@ -447,11 +449,11 @@ color: #09a370ff;
   
   /* font size adjustments */
   .text p, h2{
-    font-size:17px;
+    font-size:20px;
   }
 
   .hero .whatis {
-    font-size: 17px;
+    font-size: 24px;
     margin-bottom: 2em;
     padding-left:0;
     padding-right:0;
@@ -462,57 +464,26 @@ color: #09a370ff;
     margin-right:5%;
   }
 
-  .bestpractices .headline {
-    font-size: 17px;
+  .bestpractices .headline, ol li {
+    font-size: 20px;
   }
 
-  ol li {
-    font-size: 17px;
+  .title, .jump {
+    font-size: 24px;
   }
 
-
-
-  
-  /* format adjustments */
- 
-
-
-
-  .mobile{
-    display: block;
-  }
-
-  .logo {
-    margin-bottom: 5px;
+  .fundheadline {
+    font-size: 20px;
   }
 
   .hero {
     margin-bottom: 0rem;
   }
 
-
-  .index {
-      display:grid;
-      grid-template-columns: 1fr;
-      margin-bottom:1rem;
-  }
-
-  .jump {
-    font-size: 14px;
-  }
-
-  .content {
-    grid-template-columns: 1fr;
-  }
-
   ol {
     padding:0;
   }
 
-  .funding .content .text .action {
-    padding: 5px 10px;
-    font-size: 14px;
-  }
 
   .action {
     margin: 2px;
