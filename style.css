@@ -33,17 +33,26 @@ li{
 body {
     color: black;
     background-color: rgb(255, 252, 235);
-    margin-top: 6rem;
-    margin-left: 23%;
-    margin-right: 23%;
+    margin-top: 3rem;
     font-family: 'DM Sans', sans-serif; 
 }
+
+section {
+  margin-left: 23%;
+  margin-right: 23%;
+}
+
+
 h1 {
   font-family: 'DM Sans', sans-serif;  }
 
 h2 {
   font-size:20px;
   font-family: 'DM Sans', sans-serif;  }
+
+  .fullwidth h2 {
+    color: #09a370ff;
+  }
 
   /* ARROW + LOGO +PDF */
 
@@ -98,10 +107,10 @@ h2 {
 }
 
 .hero .whatis {
-  font-size: 24px;
-  padding-left:4em;
-  padding-right:4em;
-  padding-top:1em;
+  font-size: 28px;
+  padding-left:0;
+  padding-right:0;
+  padding-top:0;
 }
 
 .hero .whatis a {
@@ -157,27 +166,20 @@ color: #09a370ff;
 
 .bestpractices {
   border: solid 2px #31a9edff;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  display: block;
   color:rgb(255, 255, 255);
   background-color: #31a9edff;
   border-radius: 9px;
+  padding: 1em;
 }
 
 .bestpractices .headline {
-  grid-column-start: 1;
-  grid-column-end: 2;
   text-align: center;
   margin:auto;
   font-size: 24px;
-  padding-left:20%;
-  padding-right:20%;
 }
 
 .bestpractices .list {
-  grid-column-start: 2;
-  grid-column-end: 3;
   padding:1rem;
 }
 
@@ -262,11 +264,6 @@ color: #09a370ff;
   .tab input:checked ~ label::after { 
     content: "\2013"; 
   }
-
-  section {
-  margin-bottom: 3em;
-  }
-
 
   .funding .title {
     color: #09a370ff;
@@ -432,28 +429,33 @@ color: #09a370ff;
 
  @media screen and (max-width: 767px) {
 
-
-
-
+  body {
+    margin-top:0;
+    }
+  
   /* font size adjustments */
-  .text p{
-    font-size:12px;
+  .text p, h2{
+    font-size:17px;
   }
-  
-  .text li{
-    font-size:12px;
+
+  .hero .whatis {
+    font-size: 17px;
+    margin-bottom: 2em;
+    padding-left:0;
+    padding-right:0;
   }
-  
-  h2 {
-    font-size: 14px;
+
+  section {
+    margin-left: 5%;
+    margin-right:5%;
   }
+
+
 
   
   /* format adjustments */
  
-  body {
-    margin: 3em;
-  }
+
 
 
   .mobile{
@@ -468,10 +470,6 @@ color: #09a370ff;
     margin-bottom: 0rem;
   }
 
-  .hero .whatis {
-    font-size: 12px;
-    margin-bottom: 2em;
-  }
 
   .index {
       display:grid;
@@ -509,30 +507,6 @@ color: #09a370ff;
   margin:21px;
   padding:0;
 }
-
-section {
-  margin-bottom: 10px;
-}
-
-
-.bestpractices {
-  grid-template-columns: 1fr;
-  padding:1em;
-}
-
-.bestpractices .headline {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  text-align: center;
-  font-size: 18px;
-}
-
-.bestpractices .list {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-
 
 
 footer {
