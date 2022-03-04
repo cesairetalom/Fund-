@@ -85,11 +85,10 @@ h2 {
     background-color: #09a370ff;
     color: white;
     padding:10px 15px;
-    font-size: 24px;;
+    font-size: 28px;;
   }
   .fundaction {
     border: solid #09a370ff 2px;
-    margin-bottom:2em;
   }
 
   .mobile{
@@ -153,7 +152,7 @@ h2 {
   text-align: center;
   padding: 20px;
   border-radius: 9px;
-  font-size: 24px;
+  font-size: 36px;
   margin-bottom: 15px;
 }
 
@@ -180,12 +179,10 @@ color: #09a370ff;
 /* Funding Best Practices */
 
 .bestpractices {
-  border: solid 2px #31a9edff;
   display: block;
-  color:#31a9edff;
+  color: black;
   background-color: none;
-  border-radius: 9px;
-  padding: 1.5em;
+  padding: .5em;
 }
 
 .bestpractices .headline {
@@ -193,7 +190,7 @@ color: #09a370ff;
 }
 
 .bestpractices .list {
-  padding:1rem;
+  padding-left:1rem;
 }
 
 
@@ -298,19 +295,21 @@ color: #09a370ff;
 
   .funding .content .text .action {
     font-size:20px;
-    outline: solid 2px #31a9edff;
-    color:#31a9edff;
+    outline: solid 2px #09a370ff;
+    color:#09a370ff;
     padding:10px 15px;
-    margin-bottom:10px;
-    margin-left: 3px;
-    border-radius: 9px;
+    margin: 15px 3px;
+  }
+
+  .action {
+    margin-bottom: 10px;
   }
   .funding .content .text a {
     text-decoration: none;
   }
 
   .giving a {
-    color: #31a9edff;
+    color: #09a370ff;
     text-decoration: underline;
   }
 
