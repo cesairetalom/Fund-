@@ -20,7 +20,7 @@ a {
 
 p, ol li {
   font-family: 'DM Sans', sans-serif; ;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 li a {
@@ -39,15 +39,15 @@ body {
     color: black;
     background-color: rgb(255, 252, 235);
     margin-top: 6rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 23%;
+    margin-right: 23%;
     font-family: 'DM Sans', sans-serif; 
 }
 h1 {
   font-family: 'DM Sans', sans-serif;  }
 
 h2 {
-  font-size:18px;
+  font-size:20px;
   font-family: 'DM Sans', sans-serif;  }
 
   /* ARROW + LOGO +PDF */
@@ -116,11 +116,13 @@ h2 {
 /* INDEX */
 
 .index {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  display: block;
   margin-bottom:4rem;
 }
+
+/* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px; */
 
 .index a {
   text-decoration: none;
@@ -133,6 +135,7 @@ h2 {
   padding: 20px;
   border-radius: 9px;
   font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .jump:hover {
@@ -142,15 +145,18 @@ h2 {
 
 .title {
 border-bottom: 2px solid #09a370ff;
-font-size: 24px;
+padding-bottom:10px;
+font-size: 36px;
 color: #09a370ff;
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  display: block;
 }
+
+/*  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px; */
 
 /* Funding Best Practices */
 
@@ -212,13 +218,14 @@ color: #09a370ff;
     overflow: scroll;
     transition: max-height 0.3s;
     max-height: 0;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    column-gap: 30px;
+    display: block;
     background-color: rgba(9, 163, 112, 0.158);
     margin-top: 10px;
     border-radius: 9px;
   }
+
+  /* grid-template-columns: 1fr 3fr;
+    column-gap: 30px; */
 
   .orgs {
     margin: 21px 21px;
@@ -342,7 +349,7 @@ color: #09a370ff;
     /* Footnote code courtesy of Hugo Giraudel codepen on accessible footnotes https://www.sitepoint.com/accessible-footnotes-css/ */
   
     /* Initializing a footnote counter on the wrapper */
-    article {
+    body {
       counter-reset: footnotes;
     }
 
@@ -379,12 +386,12 @@ color: #09a370ff;
      * 5. Reset link styles on the number to show it's usable
      */
     [aria-describedby="footnote-label"]::after {
-      content: '[' counter(footnotes) ']'; /* 1 */
+      content: '' counter(footnotes) ''; /* 1 */
       vertical-align: super; /* 2 */
       font-size: 0.75em; /* 3 */
       margin-left: 2px; /* 4 */
       color: #f95421ff; /* 5 */
-      text-decoration: underline; /* 5 */
+      text-decoration: none; /* 5 */
       cursor: pointer; /* 5 */
     }
     
