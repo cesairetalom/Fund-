@@ -11,9 +11,7 @@
 .mobileimage {
   display:none;
 }
-.arrow {
-  fill: #09a370ff;
-}
+
 }
 a {
   color: black;
@@ -69,9 +67,7 @@ h2 {
     color: #31a9edff;
   }
 
-  .arrow svg {
-    width: 4.5%;
-  }
+
 
   header h2 a:hover {  
     background-color: rgba(49, 168, 237, 0.164);
@@ -467,10 +463,6 @@ color: #09a370ff;
 
   .logo {
     margin-bottom: 5px;
-  }
-
-  .arrow svg {
-    display:none;
   }
 
   .hero {
