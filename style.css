@@ -1,16 +1,7 @@
 
-/* @font-face {
-  font-family: 'AUTHENTIC';
-  src: url('fonts/AUTHENTICSans-150.woff') format ('woff');
-  src: url('fonts/AUTHENTICSans-150.woff2') format ('woff2');
-} */
 
-/* not working^ figure out how to connect */
-
-}
 a {
   color: black;
-  text-decoration: none;
 }
 
 p, ol li {
@@ -27,12 +18,14 @@ ol {
   padding: 0px;
 }
 
+
 li{
   margin: 10px 0;
 }
 
 ol li {
   padding-left: 1em;
+  padding-right: 1em;
 }
 
 body {
@@ -82,18 +75,14 @@ h2 {
   }
 
   .fundheadline {
-    background-color: #31a9edff;
+    background-color: #f95421ff;
     color: white;
     padding:10px 15px;
     font-size: 28px;;
   }
   .fundaction {
-    border: solid #09a370ff 2px;
+    border: solid #f95421ff 2px;
     margin-bottom: 15px;
-  }
-
-  .mobile{
-    display: none;
   }
 
   header {
@@ -139,10 +128,6 @@ h2 {
   margin-bottom:4rem;
 }
 
-/* display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px; */
-
 .index a {
   text-decoration: none;
 }
@@ -174,25 +159,22 @@ margin-bottom: 45px;
   display: block;
 }
 
-/*  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px; */
 
-/* Funding Best Practices */
 
 .bestpractices {
   display: block;
   color: black;
   background-color: none;
-  padding: .5em;
+  padding-bottom: 5px;
 }
 
 .bestpractices .headline {
   font-size: 20px;
 }
 
-.bestpractices .list {
-  padding-left:1rem;
+.bestpractices .list ul {
+  margin-left: 0px;
+  padding-inline-start: 15px;
 }
 
 
@@ -233,8 +215,15 @@ margin-bottom: 45px;
     border-radius: 9px;
   }
 
-  /* grid-template-columns: 1fr 3fr;
-    column-gap: 30px; */
+  .tab-content h3 {
+    margin-left: 21px;
+  }
+
+  .tab-content ol li {
+    margin-left:40px;
+  }
+  
+
 
   .orgs {
     margin: 21px 21px;
@@ -246,9 +235,6 @@ margin-bottom: 45px;
     color:#09a370ff;
   }
 
-  ul {
-    list-style: none;
-  }
 
   .timeline {
     grid-column: 1 / span 2;
@@ -301,18 +287,30 @@ margin-bottom: 45px;
     color:#09a370ff;
     padding:10px 15px;
     margin: 15px 3px;
+    text-decoration: none;
   }
+
+.othersteps a {
+  text-decoration: none;
+}   
 
   .action {
     margin-bottom: 10px;
   }
-  .funding .content .text a {
-    text-decoration: none;
-  }
 
   .giving a {
-    color: #09a370ff;
+    color: #f95421ff;
     text-decoration: underline;
+    font-size: 20px;
+  }
+
+  .tracking {
+    font-size:20px;
+  }
+
+  .tracking a {
+    text-decoration: underline;
+    color: #f95421ff;
   }
 
  
@@ -346,7 +344,7 @@ margin-bottom: 45px;
 
         /* footnote styles? trying to adjust */
     .tab ol li{
-      font-size:11px;
+      font-size:16px;
       color: #f95421ff;
     }
 
@@ -451,6 +449,7 @@ margin-bottom: 45px;
   .text p, h2{
     font-size:20px;
   }
+  
 
   .hero .whatis {
     font-size: 24px;
@@ -480,9 +479,9 @@ margin-bottom: 45px;
     margin-bottom: 0rem;
   }
 
-  ol {
+  /* ol {
     padding:0;
-  }
+  } */
 
 
   .action {
@@ -518,7 +517,9 @@ footer {
     }
 
 
-
+    .tab-content ul {
+      margin-left:40px;
+    }
 
 .tab .tab-content {
   display: block;
@@ -531,6 +532,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+
 
   
     }
