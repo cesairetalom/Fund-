@@ -538,8 +538,3 @@ footer {
     }
 
 
-@media print {
-  img {
-    width: 20%;
-  }
-}
