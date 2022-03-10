@@ -324,22 +324,13 @@ margin-bottom: 45px;
 
   
   footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;  
+  display: block;
   margin-bottom: 3em;
   margin-top: 3em;
   align-items: end;
     }
 
-  .logos {
-    vertical-align: center;
-  }
 
-    .socials {
-      text-align: right;
-      font-weight: bold;
-      align-items: flex-end;
-    }
 
 
         /* footnote styles? trying to adjust */
