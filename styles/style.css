@@ -14,7 +14,7 @@ li a {
 ol {
   margin-top: 10px;
   padding: 0px;
-}j
+}
 
 li {
   margin: 10px 0;
@@ -135,7 +135,7 @@ header {
 
 .title {
   border-bottom: 2px solid #09a370ff;
-  padding-bottom:10px;
+  padding-bottom: 10px;
   font-size: 36px;
   color: #09a370ff;
   margin-bottom: 45px;
@@ -156,6 +156,36 @@ header {
   list-style: none;
 }
 
+.funding .title {
+  color: #09a370ff;
+}
+
+.funding img {
+  width: 100%;
+}
+
+.funding .text p {
+  width:100%;
+}
+
+.funding .text .action {
+  display: block;
+  font-size: 20px;
+  outline: solid 2px #09a370ff;
+  color:#09a370ff;
+  padding: 10px 15px;
+  margin: 15px 3px 10px 3px;
+  text-decoration: none;
+}
+
+.action:hover {
+  background-color: rgba(49, 168, 237, 0.164);
+}
+
+.othersteps a {
+  text-decoration: none;
+}
+
 .bestpractices ul {
   margin-left: 0px;
   padding-inline-start: 15px;
@@ -163,10 +193,10 @@ header {
 
 /* (A) TABS CONTAINER */
 .tab {
-    position: relative;
-    width: 100%;
-    margin-bottom: 1rem;
-  }
+  position: relative;
+  width: 100%;
+  margin-bottom: 1rem;
+}
 
   /* (B) HIDE CHECKBOX */
   .tab input { display: none; }
@@ -245,34 +275,6 @@ header {
     content: "\2013"; 
   }
 
-  .funding .title {
-    color: #09a370ff;
-  }
-
-  .funding .content img {
-    width: 100%;
-  }
-
-  .funding .content .text p {
-    width:100%;
-  }
-
-  .funding .content .text .action {
-    font-size:20px;
-    outline: solid 2px #09a370ff;
-    color:#09a370ff;
-    padding:10px 15px;
-    margin: 15px 3px;
-    text-decoration: none;
-  }
-
-.othersteps a {
-  text-decoration: none;
-}   
-
-  .action {
-    margin-bottom: 10px;
-  }
 
   .giving a {
     color: #f95421ff;
@@ -289,25 +291,17 @@ header {
     color: #f95421ff;
   }
 
- 
-  .funding .content .text .action:hover {
-    background-color: rgba(49, 168, 237, 0.164);
-  }
-
   ::selection {
     background: #fff1b6ff; 
   }
 
   
-  footer {
+footer {
   display: block;
   margin-bottom: 3em;
   margin-top: 3em;
   align-items: end;
-    }
-
-
-
+}
 
         /* footnote styles? trying to adjust */
     .tab ol li{
@@ -406,7 +400,7 @@ header {
 
     
 
- @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   body {
     margin-top:0;
   }
@@ -471,7 +465,7 @@ header {
   }
     
   .tab-content ul {
-    margin-left:40px;
+    margin-left: 40px;
   }
 
   .tab .tab-content {
@@ -486,5 +480,3 @@ header {
     margin-right: auto;
   }
 }
-
-
