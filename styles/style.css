@@ -37,9 +37,8 @@ main {
   margin-right: 23%;
 }
 
-
-h1 {
-  font-family: 'DM Sans', sans-serif; 
+header {
+  text-align: center;
 }
 
 h2 {
@@ -80,11 +79,7 @@ header h2 a:hover {
   border: solid #f95421ff 2px;
   margin-bottom: 15px;
 }
-
-header {
-  text-align: center;
-}
-  
+ 
 /* ABOUT TEXT */
 .hero {
   text-align: center;
@@ -152,8 +147,13 @@ header {
   font-size: 20px;
 }
 
+.bestpractices ul {
+  margin-left: 0px;
+  padding-inline-start: 15px;
+}
+
 .fundaction ol {
-  list-style: none;
+  list-style: decimal inside;
 }
 
 .funding .title {
@@ -165,7 +165,7 @@ header {
 }
 
 .funding .text p {
-  width:100%;
+  width: 100%;
 }
 
 .funding .text .action {
@@ -186,11 +186,6 @@ header {
   text-decoration: none;
 }
 
-.bestpractices ul {
-  margin-left: 0px;
-  padding-inline-start: 15px;
-}
-
 /* (A) TABS CONTAINER */
 .tab {
   position: relative;
@@ -198,104 +193,99 @@ header {
   margin-bottom: 1rem;
 }
 
-  /* (B) HIDE CHECKBOX */
-  .tab input { display: none; }
-  
-  /* (C) TAB LABEL */
-  .tab label {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 15px;
-    margin-top: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #31a9edff;
-    cursor: pointer;
-    font-size:30px;
-    border-radius: 9px;
-  }
-  
-  /* (D) TAB CONTENT */
-  .tab .tab-content {
-    /* CSS ANIMATION WILL NOT WORK WITH AUTO HEIGHT */
-    /* THIS IS WHY WE USE MAX-HEIGHT INSTEAD */
-    overflow: scroll;
-    transition: max-height 0.3s;
-    max-height: 0;
-    display: block;
-    background-color: rgba(9, 163, 112, 0.158);
-    margin-top: 10px;
-    border-radius: 9px;
-  }
+/* (B) HIDE CHECKBOX */
+.tab input { display: none; }
 
-  .tab-content h3 {
-    margin-left: 21px;
-  }
+/* (C) TAB LABEL */
+.tab label {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #31a9edff;
+  cursor: pointer;
+  font-size:30px;
+  border-radius: 9px;
+}
 
-  .tab-content ol li {
-    margin-left:40px;
-  }
-  
+/* (D) TAB CONTENT */
+.tab .tab-content {
+  /* CSS ANIMATION WILL NOT WORK WITH AUTO HEIGHT */
+  /* THIS IS WHY WE USE MAX-HEIGHT INSTEAD */
+  overflow: scroll;
+  transition: max-height 0.3s;
+  max-height: 0;
+  display: block;
+  background-color: rgba(9, 163, 112, 0.158);
+  margin-top: 10px;
+  border-radius: 9px;
+}
 
+.tab-content h3 {
+  margin-left: 21px;
+}
 
-  .orgs {
-    margin: 21px 21px;
-    font-size: 14px;
-    font-weight: bold;
-  }
+.tab-content ol li {
+  margin-left: 40px;
+}
 
-  .resourcelist a {
-    color:#09a370ff;
-  }
+.orgs {
+  margin: 21px 21px;
+  font-size: 14px;
+  font-weight: bold;
+}
 
+.resourcelist a {
+  color:#09a370ff;
+}
 
-  .timeline {
-    grid-column: 1 / span 2;
-  }
+.timeline {
+  grid-column: 1 / span 2;
+}
 
-  .tab .tab-content img {
-    width:100%;
-    margin-top: 1em;
-  }
-  /* .tab .tab-content p { margin-left: 20rem; } */
-  
-  /* (E) OPEN TAB ON CHECKED */
-  .tab input:checked ~ .tab-content { max-height: 100vh; }
-  
-  /* (F) EXTRA - ADD ARROW INDICATOR */
-  .tab label::after {
-    content: "\002B";
-    /* content: "\2192"; */
-    right: 10px;
-    top: 10px;
-    display: block;
-    transition: all 0.4s;
-    margin-right:1rem;
-  }
-  .tab input:checked ~ label::after { 
-    content: "\2013"; 
-  }
+.tab .tab-content img {
+  width: 100%;
+  margin-top: 1em;
+}
 
+/* (E) OPEN TAB ON CHECKED */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
 
-  .giving a {
-    color: #f95421ff;
-    text-decoration: underline;
-    font-size: 20px;
-  }
+/* (F) EXTRA - ADD ARROW INDICATOR */
+.tab label::after {
+  content: "\002B";
+  right: 10px;
+  top: 10px;
+  display: block;
+  transition: all 0.4s;
+  margin-right:1rem;
+}
+.tab input:checked ~ label::after { 
+  content: "\2013"; 
+}
 
-  .tracking {
-    font-size:20px;
-  }
+.giving a {
+  color: #f95421ff;
+  text-decoration: underline;
+  font-size: 20px;
+}
 
-  .tracking a {
-    text-decoration: underline;
-    color: #f95421ff;
-  }
+.tracking {
+  font-size:20px;
+}
 
-  ::selection {
-    background: #fff1b6ff; 
-  }
+.tracking a {
+  text-decoration: underline;
+  color: #f95421ff;
+}
 
-  
+::selection {
+  background: #fff1b6ff; 
+}
+
 footer {
   display: block;
   margin-bottom: 3em;
@@ -303,102 +293,96 @@ footer {
   align-items: end;
 }
 
-        /* footnote styles? trying to adjust */
-    .tab ol li{
-      font-size:16px;
-      color: #f95421ff;
-    }
+/* footnote styles? trying to adjust */
+.tab ol li{
+  font-size:16px;
+  color: #f95421ff;
+}
 
 
-    /* Footnote code courtesy of Hugo Giraudel codepen on accessible footnotes https://www.sitepoint.com/accessible-footnotes-css/ */
-  
-    /* Initializing a footnote counter on the wrapper */
-    body {
-      counter-reset: footnotes;
-    }
+/* Footnote code courtesy of Hugo Giraudel codepen on accessible footnotes https://www.sitepoint.com/accessible-footnotes-css/ */
 
-    article ol li {
-      font-size: 10px;
-      color: #f95421ff;
-    }
+/* Initializing a footnote counter on the wrapper */
+body {
+  counter-reset: footnotes;
+}
 
-    article ol li a {
-      color: #f95421ff;
-    }
+article ol li {
+  font-size: 10px;
+  color: #f95421ff;
+}
 
-    
-    /**
-     * Inline footnotes references
-     * 1. Increment the counter at each new reference
-     * 2. Reset link styles to make it appear like regular text
-     */
+article ol li a {
+  color: #f95421ff;
+}
 
-    [aria-describedby="footnote-label"] {
-      counter-increment: footnotes; /* 1 */
-      text-decoration: none; /* 2 */
-      color: inherit; /* 2 */
-      cursor: default; /* 2 */
-      outline: none; /* 2 */
-    }
-    
-    /**
-     * Actual numbered references
-     * 1. Display the current state of the counter (e.g. `[1]`)
-     * 2. Align text as superscript
-     * 3. Make the number smaller (since it's superscript)
-     * 4. Slightly offset the number from the text
-     * 5. Reset link styles on the number to show it's usable
-     */
-    [aria-describedby="footnote-label"]::after {
-      content: '' counter(footnotes) ''; /* 1 */
-      vertical-align: super; /* 2 */
-      font-size: 0.75em; /* 3 */
-      margin-left: 2px; /* 4 */
-      color: #f95421ff; /* 5 */
-      text-decoration: none; /* 5 */
-      cursor: pointer; /* 5 */
-    }
-    
-    /**
-     * Resetting the default focused styles on the number
-     */
-    [aria-describedby="footnote-label"]:focus::after {
-      outline: thin dotted;
-      outline-offset: 2px;
-    }
-    
-    [aria-label="Back to content"] {
-      font-size: 0.8em;
-      color:#f95421ff;
-    }
-    
-    
-    /**
-     * Visually hidden yet accessible content
-     */
-    .visually-hidden {
-      position: absolute;
-      clip: rect(0 0 0 0);
-      visibility: hidden;
-      opacity: 0;
-    }
-  
- 
 
-    /* SAMPLE SCROLL */
+/**
+ * Inline footnotes references
+ * 1. Increment the counter at each new reference
+ * 2. Reset link styles to make it appear like regular text
+ */
 
-    .timeline {
-      overflow: scroll;
-      outline: solid 2px #09a370ff;
-      margin-bottom: 4em;
-    }
+[aria-describedby="footnote-label"] {
+  counter-increment: footnotes; /* 1 */
+  text-decoration: none; /* 2 */
+  color: inherit; /* 2 */
+  cursor: default; /* 2 */
+  outline: none; /* 2 */
+}
 
-    .timeline img {
-      height:700px;
-      padding-left: 1em;
-    }
+/**
+ * Actual numbered references
+ * 1. Display the current state of the counter (e.g. `[1]`)
+ * 2. Align text as superscript
+ * 3. Make the number smaller (since it's superscript)
+ * 4. Slightly offset the number from the text
+ * 5. Reset link styles on the number to show it's usable
+ */
+[aria-describedby="footnote-label"]::after {
+  content: '' counter(footnotes) ''; /* 1 */
+  vertical-align: super; /* 2 */
+  font-size: 0.75em; /* 3 */
+  margin-left: 2px; /* 4 */
+  color: #f95421ff; /* 5 */
+  text-decoration: none; /* 5 */
+  cursor: pointer; /* 5 */
+}
 
-    
+/**
+ * Resetting the default focused styles on the number
+ */
+[aria-describedby="footnote-label"]:focus::after {
+  outline: thin dotted;
+  outline-offset: 2px;
+}
+
+[aria-label="Back to content"] {
+  font-size: 0.8em;
+  color:#f95421ff;
+}
+
+/**
+ * Visually hidden yet accessible content
+ */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* SAMPLE SCROLL */
+.timeline {
+  overflow: scroll;
+  outline: solid 2px #09a370ff;
+  margin-bottom: 4em;
+}
+
+.timeline img {
+  height:700px;
+  padding-left: 1em;
+}
 
 @media screen and (max-width: 767px) {
   body {
