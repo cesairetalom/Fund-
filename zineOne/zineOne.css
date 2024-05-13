@@ -2,41 +2,6 @@ a {
   color: black;
 }
 
-p, ol li {
-  font-family: 'DM Sans', sans-serif; ;
-  font-size: 20px;
-}
-
-li a {
-  text-decoration: underline;
-}
-
-ol {
-  margin-top: 10px;
-  padding: 0px;
-}
-
-li {
-  margin: 10px 0;
-}
-
-ol li {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-body {
-  color: black;
-  background-color: rgb(255, 252, 235);
-  margin-top: 3rem;
-  font-family: 'DM Sans', sans-serif; 
-}
-
-section {
-  margin-left: 23%;
-  margin-right: 23%;
-}
-
 header {
   text-align: center;
 }
