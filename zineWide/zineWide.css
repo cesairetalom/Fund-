@@ -28,7 +28,40 @@ body {
   font-family: 'DM Sans', sans-serif; 
 }
 
+a {
+  color: black;
+}
+
+header {
+  text-align: center;
+}
+
 section {
   margin-left: 23%;
   margin-right: 23%;
+}
+
+.zine-nav {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.zine-nav a {
+  text-decoration: none;
+  text-align: center;
+  outline: solid 2px;
+  padding: 20px 70px;
+  border-radius: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.zine-nav a p {
+  font-size: 36px;
+  margin: 0px;
 }
