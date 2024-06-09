@@ -1,0 +1,10 @@
+/* https://coolors.co/user/palettes/661196ed653045000b3e5386 */
+
+.jump {
+  color: aqua;
+  outline-color: aqua;
+}
+
+.jump:hover {
+  background-color: coral;
+}

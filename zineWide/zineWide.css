@@ -1,4 +1,4 @@
-p, ol li {
+p, ol li, h2 {
   font-family: 'DM Sans', sans-serif; ;
   font-size: 20px;
 }
@@ -10,6 +10,7 @@ li a {
 ol {
   margin-top: 10px;
   padding: 0px;
+  list-style: decimal inside;
 }
 
 li {
@@ -64,4 +65,25 @@ section {
 .zine-nav a p {
   font-size: 36px;
   margin: 0px;
+}
+
+/* INDEX */
+.nav-button {
+  display: block;
+  margin-bottom: 4rem;
+}
+
+.nav-button a {
+  text-decoration: none;
+}
+
+.jump {
+  text-align: center;
+  padding: 20px;
+  border-radius: 9px;
+  font-size: 36px;
+  margin-bottom: 15px;
+  display: block;
+  outline-style: solid;
+  outline-width: 2px;
 }

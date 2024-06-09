@@ -1,8 +1,3 @@
-h2 {
-  font-size: 20px;
-  font-family: 'DM Sans', sans-serif;
-}
-
 .fullwidth h2 {
   color: #09a370ff;
 }
@@ -42,7 +37,7 @@ header h2 a:hover {
 .fundheadline {
   background-color: #f95421ff;
   color: white;
-  padding:10px 15px;
+  padding: 10px 15px;
   font-size: 28px;;
 }
 
@@ -75,24 +70,9 @@ header h2 a:hover {
 }
 
 /* INDEX */
-.nav-button {
-  display: block;
-  margin-bottom: 4rem;
-}
-
-.nav-button a {
-  text-decoration: none;
-}
-
 .jump {
   color: #09a370ff;
-  outline: solid 2px #09a370ff;
-  text-align: center;
-  padding: 20px;
-  border-radius: 9px;
-  font-size: 36px;
-  margin-bottom: 15px;
-  display: block;
+  outline-color: #09a370ff;
 }
 
 .jump:hover {
@@ -123,8 +103,7 @@ header h2 a:hover {
   padding-inline-start: 15px;
 }
 
-.fundaction ol {
-  list-style: decimal inside;
+ol {
 }
 
 .funding .title {
