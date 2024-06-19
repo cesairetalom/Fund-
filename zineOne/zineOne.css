@@ -29,9 +29,10 @@ header h2 a:hover {
   background-color: rgba(9, 163, 112, 0.158);
 }
 
-.zine-nav .selected-zine {
+.zine-nav a.selected-zine {
   color: #31a9edff;
   outline: solid 2px #31a9edff;
+  background-color: #b6ddf3;
 }
 
 .fundheadline {

@@ -67,6 +67,10 @@ section {
   margin: 0px;
 }
 
+.zine-nav a.selected-zine:hover {
+  cursor: default;
+}
+
 /* INDEX */
 .nav-button {
   display: block;
