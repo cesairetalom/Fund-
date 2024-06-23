@@ -38,13 +38,10 @@ header h2 a:hover {
 .fundheadline {
   background-color: #f95421ff;
   color: white;
-  padding: 10px 15px;
-  font-size: 28px;;
 }
 
 .fundaction {
   border: solid #f95421ff 2px;
-  margin-bottom: 15px;
 }
  
 /* ABOUT TEXT */
@@ -102,9 +99,6 @@ header h2 a:hover {
 .bestpractices ul {
   margin-left: 0px;
   padding-inline-start: 15px;
-}
-
-ol {
 }
 
 .funding .title {
@@ -224,12 +218,7 @@ ol {
   font-size: 20px;
 }
 
-.tracking {
-  font-size:20px;
-}
-
 .tracking a {
-  text-decoration: underline;
   color: #f95421ff;
 }
 

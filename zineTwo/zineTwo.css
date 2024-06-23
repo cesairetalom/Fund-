@@ -40,3 +40,20 @@
   color: #390099;
   margin-bottom: 45px;
 }
+
+.fundheadline {
+  background-color: #FF0054;
+  color: white;
+}
+
+.fundaction {
+  border: solid #FF0054 2px;
+}
+
+.fundaction a {
+  color: #FF0054;
+}
+
+.tracking a {
+  color: #FF0054;
+}

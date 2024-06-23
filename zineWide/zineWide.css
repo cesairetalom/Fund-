@@ -91,3 +91,54 @@ section {
   outline-style: solid;
   outline-width: 2px;
 }
+
+.bestpractices {
+  display: block;
+  color: black;
+  background-color: none;
+  padding-bottom: 5px;
+}
+
+.bestpractices .headline {
+  font-size: 20px;
+}
+
+.bestpractices ul {
+  margin-left: 0px;
+  padding-inline-start: 15px;
+}
+
+.fundaction {
+  margin-bottom: 15px;
+}
+
+.fundheadline {
+  padding: 10px 15px;
+  font-size: 28px;
+}
+
+.funding .title {
+  color: #09a370ff;
+}
+
+.funding img {
+  width: 100%;
+}
+
+.funding .text p {
+  width: 100%;
+}
+
+.funding .text .action {
+  display: block;
+  font-size: 20px;
+  outline: solid 2px #09a370ff;
+  color:#09a370ff;
+  padding: 10px 15px;
+  margin: 15px 3px 10px 3px;
+  text-decoration: none;
+}
+
+.tracking {
+  font-size: 20px;
+}
