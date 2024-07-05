@@ -53,3 +53,35 @@ a {
 .fundaction {
   border: solid #FF0054 2px;
 }
+
+/* (C) TAB LABEL */
+.tab label {
+  color: rgb(255, 255, 255);
+  background-color: #390099;
+}
+
+/* (D) TAB CONTENT */
+.tab .tab-content {
+  background-color: #ad7eff;
+}
+
+/* footnote styles? trying to adjust */
+.tab ol li{
+  color: #FF5400;
+}
+
+article ol li {
+  color: #FF5400;
+}
+
+article ol li a {
+  color: #FF5400;
+}
+
+[aria-describedby="footnote-label"]::after {
+  color: #FF5400; /* 5 */
+}
+
+[aria-label="Back to content"] {
+  color:#FF5400;
+}
