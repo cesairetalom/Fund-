@@ -9,6 +9,10 @@
 
 */
 
+a {
+  color: #FF0054;
+}
+
 .zine-nav a {
   color: #390099;
   outline: solid 2px #390099;
@@ -48,12 +52,4 @@
 
 .fundaction {
   border: solid #FF0054 2px;
-}
-
-.fundaction a {
-  color: #FF0054;
-}
-
-.tracking a {
-  color: #FF0054;
 }

@@ -37,7 +37,7 @@ header {
   text-align: center;
 }
 
-section {
+section, footer {
   margin-left: 23%;
   margin-right: 23%;
 }
@@ -103,9 +103,10 @@ section {
   font-size: 20px;
 }
 
-.bestpractices ul {
+.bestpractices li {
   margin-left: 0px;
   padding-inline-start: 15px;
+  font-size: 20px;
 }
 
 .fundaction {
