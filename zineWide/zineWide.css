@@ -7,6 +7,10 @@ li a {
   text-decoration: underline;
 }
 
+.fn-return {
+  text-decoration: none;
+}
+
 ol {
   margin-top: 10px;
   padding: 0px;
@@ -28,8 +32,6 @@ ol li {
 }
 
 body {
-  color: black;
-  background-color: rgb(255, 252, 235);
   margin-top: 3rem;
   font-family: 'DM Sans', sans-serif; 
 }

@@ -9,8 +9,63 @@
 
 */
 
+body {
+  color: black;
+  background-color: #ffbd00;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100%;
+}
+
+header {
+  margin-bottom: 3em;
+}
+
 a {
   color: #FF0054;
+}
+
+#kff-map {
+  width: 100%;
+  background: linear-gradient(
+    180deg, 
+    rgba(255,189,0,1) 0%, 
+    rgba(255,255,255,1) 20%, 
+    rgba(255,255,255,1) 80%, 
+    rgba(255,189,0,1) 100%
+  ); 
+}
+
+.image-wrapper {
+  width: 100%;
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background: linear-gradient(
+    180deg, rgba(255,189,0,1) 0%, 
+    rgba(158,0,89,1) 20%, 
+    rgba(158,0,89,1) 80%, 
+    rgba(255,189,0,1) 100%
+  ); 
+}
+
+.quote {
+  color: #ffbd00;
+  padding: 10%;
+  font-size: 5em;
+  background: linear-gradient(
+    180deg, 
+    rgba(255,189,0,1) 0%, 
+    rgba(158,0,89,1) 50%, 
+    rgba(255,189,0,1) 100%
+  );
+}
+
+.quote-left {
+  text-align: left;
+}
+
+.quote-right {
+  text-align: right;
 }
 
 .zine-nav a {
@@ -78,10 +133,11 @@ article ol li a {
   color: #FF5400;
 }
 
-[aria-describedby="footnote-label"]::after {
+sup a {
   color: #FF5400; /* 5 */
+  margin: 2px;
 }
 
-[aria-label="Back to content"] {
-  color:#FF5400;
+a.fn-return {
+  color: #FF5400; /* 5 */
 }
